@@ -2,7 +2,8 @@
 ### You should install git on your computer to access files:
 1. Visit [https://git-scm.com](https://git-scm.com)
 2. Download and install the version for your operating system
-3. Be sure to install command line tools
+3. Windows: Be sure to install "Use Git from Windows Command Prompt" (second option)
+4. Leave defaults selected for remaining install options
 ### To access files you can open them in the browser by clicking one the file desired, but it is best to copy them to your own computer:
 1. Locate the green code button and click it
 2. Copy the URL and open git bash (terminal for MAC OS)
