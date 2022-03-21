@@ -29,15 +29,16 @@ def track(watchlist):
                 break
 
 def edit_list():
-    pass
+    print("Let's edit a list!")
 
 def add_list():
-    pass
+    print("Let's add a list!")
 
 def delete_list():
-    pass
+    print("Let's delete a list!")
 
 # program flow
+action = {'2':edit_list, '3': add_list, '4': delete_list}
 def main():
     while True:
         watchlist = "goog amzn aapl nvda".upper().split()
@@ -46,11 +47,13 @@ def main():
         if choice == '1':
             track(watchlist)
         elif choice in '234':
-            pass
+            action[choice]()
         elif choice == '5':
             print("Thank you for using StockTracker")
             print("Goodbye!")
             sys.exit()
+        else:
+            print("Enter a valid choice.")
 
 if __name__ == "__main__":
     main()
