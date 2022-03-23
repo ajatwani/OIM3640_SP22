@@ -41,7 +41,7 @@ def delete_list():
 action = {'2':edit_list, '3': add_list, '4': delete_list}
 def main():
     while True:
-        watchlist = "goog amzn aapl nvda".upper().split()
+        watchlist = "goog amzn aapl nvda".upper().split() # choose_list()
         display_menu()
         choice = input("Enter your choice: ")
         if choice == '1':
