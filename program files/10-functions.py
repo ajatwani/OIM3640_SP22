@@ -4,7 +4,7 @@
 def watchlist():
     watch = []
     while True:
-        symbol = input("Enter ticker symbol: ").upper()
+        symbol = input("Enter symbol symbol: ").upper()
         if symbol == "":
             break
         watch.append(symbol)
